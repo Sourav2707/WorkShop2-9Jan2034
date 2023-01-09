@@ -6,7 +6,7 @@ public class CustomLinkedList {
         Node node = new Node(data);
         if(head == null) { //if node is null we are feeding the node data to head
             head = node;
-        }
+        } //56, 30, 70
         else {
             Node temp = head; //feeding the value of head to temp node
             while(temp.next != null) { //while temp.next which has the head becomes null this loop will continue
